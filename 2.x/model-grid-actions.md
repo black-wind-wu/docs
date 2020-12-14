@@ -95,7 +95,7 @@ $grid->actions(function (Grid\Displayers\Actions $actions) {
 
     // prepend一个操作
     $actions->prepend('<a href=""><i class="fa fa-paper-plane"></i></a>');
-}
+});
 ```
 
 
@@ -166,7 +166,7 @@ $grid->actions([new CheckRow()]);
 // 也可以通过这种方式添加
 $grid->actions(function (Grid\Displayers\Actions $actions) {
     $actions->append(new CheckRow());
-}
+});
 ```
 
 ### 操作按钮需要与API交互
@@ -270,7 +270,7 @@ $grid->actions([new Copy(User::class)]);
 // 也可以通过这种方式添加
 $grid->actions(function (Grid\Displayers\Actions $actions) {
     $actions->append(new Copy(User::class));
-}
+});
 ```
 
 
