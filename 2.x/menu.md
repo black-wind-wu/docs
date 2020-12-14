@@ -11,12 +11,11 @@
 ### 菜单翻译
 在您的语言文件的menu_titles索引中追加菜单标题。 例如“工作单位”标题：
 
-在`resources/lang/{当前语言}/admin.php`中
+在`resources/lang/{当前语言}/menu.php`中
 ```php
 ...
-'menu_titles' => [
+追加数组元素：
     'work_units' => 'Unidades de trabajo'
-],
 ```
 
 ### 菜单缓存
